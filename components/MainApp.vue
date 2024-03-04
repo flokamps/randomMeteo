@@ -2,7 +2,7 @@
   <div v-if="!loaded">
     <Loader />
   </div>
-  <div v-else>
+  <div v-else :style="{ backgroundImage: currentBackground }" class="h-screen">
     <WeatherScreen
         :city="cityName"
         :temperature="temperature"
@@ -22,6 +22,15 @@ const weather = ref(null);
 weather.value = await getCityWeather(city.value.latitude.toString(), city.value.longitude.toString());
 const cityName: String = city.value.city;
 const temperature: Number = weather.value.current.temperature_2m;
+const currentBackground = ref("");
+const backgroundGradients = {
+  "sunny": "linear-gradient(to bottom, #FFE79A, #FFFFFF)",
+  "sunnyCloudy": "linear-gradient(to bottom, #C0DFFE, #FFFFFF)",
+  "cloudy": "linear-gradient(to bottom, #FFE79A, #FFFFFF)",
+  "snowy": "linear-gradient(to bottom, #FFFFFF, #FFFFFF)",
+  "thunderstorm": "linear-gradient(to bottom, #FFE79A, #FFFFFF)",
+  "rainy": "linear-gradient(to bottom, #C0DFFE, #FFFFFF)",
+};
 const isSunny = ref(false);
 const isCloudy = ref(false);
 const isRainy = ref(false);
@@ -29,14 +38,22 @@ const isThunderStorm = ref(false);
 const isSnowy = ref(false);
 if (weather.value.current.weather_code <= 2) {
   isSunny.value = true;
-} else if (weather.value.current.weather_code <= 19) {
-  isCloudy.value = true;
+  currentBackground.value = backgroundGradients.sunny;
 } else if (weather.value.current.weather_code <= 28) {
   isSnowy.value = true;
+  currentBackground.value = backgroundGradients.snowy;
 } else if (weather.value.current.weather_code == 29) {
   isThunderStorm.value = true;
+  currentBackground.value = backgroundGradients.thunderstorm;
 } else if (weather.value.current.weather_code <= 99) {
   isRainy.value = true;
+  currentBackground.value = backgroundGradients.rainy;
 }
+
+if (weather.value.current.weather_code <= 19 && weather.value.current.weather_code >= 2) {
+  isCloudy.value = true;
+  isSunny.value ? currentBackground.value = backgroundGradients.sunnyCloudy : currentBackground.value = backgroundGradients.cloudy;
+}
+
 loaded.value = true;
 </script>
