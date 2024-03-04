@@ -1,6 +1,6 @@
 <template>
   <div v-if="isMobile">
-    <Test />
+    <MainApp />
   </div>
   <div v-else>
     <MobileWarning />

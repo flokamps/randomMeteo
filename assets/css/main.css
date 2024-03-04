@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes bounceIn {
+    0% {
+        transform: translateY(100%);
+    }
+    50% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Hanken Grotesk, sans-serif;
+}
+
+#loader-text {
+    font-size: 17px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #29A4FD;
+        color: white;
+    }
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 47px;
+    height: 47px;
+}
+
+.slide-leave-active {
+    transition: transform 0.1s ease;
+}
+.slide-enter-active {
+    animation: bounceIn 0.1s ease forwards;
+}
+.slide-enter, .slide-leave-to {
+    position: absolute;
+    width: 100%;
+}
+.slide-enter-from {
+    transform: translateY(100%);
+}
+.slide-leave-to {
+    transform: translateY(-100%);
+}
+.transitioning .next {
+    opacity: 1;
+}
+.transitioning .background {
+    opacity: 0;
+}
+.background-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.background, .next {
+    transition: opacity 1s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.background {
+    opacity: 1;
+}
+
+.next {
+    opacity: 0;
+}
