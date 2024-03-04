@@ -1,0 +1,13 @@
+version: "3"
+services:
+  nuxt-app:
+    image: node:20
+    container_name: randomWeather
+    restart: unless-stopped
+    volumes:
+        - .:/app
+    working_dir: /app
+    ports:
+        - "3001:3000"
+    command: >
+      sh -c "yarn install && yarn dev"
