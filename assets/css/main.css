@@ -16,6 +16,30 @@
     }
 }
 
+#weatherIcon {
+    height: 380px;
+}
+
+#weatherIcon img {
+    right: -110px;
+}
+
+#swipe img {
+    height: 48px;
+}
+
+#temperature p {
+    font-size: 104px;
+}
+
+#weatherDescription p {
+    font-size: 17px;
+}
+
+#city p {
+    font-size: 48px;
+}
+
 body {
     font-family: Hanken Grotesk, sans-serif;
 }
