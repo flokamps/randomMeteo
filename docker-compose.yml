@@ -8,6 +8,6 @@ services:
         - .:/app
     working_dir: /app
     ports:
-        - "3001:3000"
-    command: >
-      sh -c "yarn install && yarn dev"
+        - "3000:3000"
+    command: > 
+      sh -c "yarn install && yarn dev --host"

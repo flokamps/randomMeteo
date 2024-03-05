@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
-    <div id="weatherIcon" class="flex justify-end relative overflow-hidden h-96">
-      <img class="absolute cover-enter-active" :src="props.weather.cover" alt="Weather cover" />
+    <div id="weatherIcon" class="flex justify-end relative overflow-hidden h-52">
+      <img class="absolute cover-enter-active max-h-full" :src="props.weather.cover" alt="Weather cover" />
     </div>
     <div id="texts" class="flex-col flex texts-enter-active pl-5">
       <div id="temperature">
