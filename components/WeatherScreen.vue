@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col pl-5 h-screen">
+  <div class="flex flex-col pl-5">
     <div id="weatherIcon" class="flex justify-end relative overflow-hidden">
       <img class="absolute cover-enter-active" :src="props.weather.cover" alt="Weather cover" />
     </div>
@@ -17,10 +17,6 @@
       <div id="cityDescription">
         <p class="font-light">Montluçon est une commune française située dans le centre de la France, sous-préfecture du département de l'Allier dans la région Auvergne-Rhône-Alpes...</p>
       </div>
-    </div>
-    <div id="swipe" class="flex flex-col font-bold items-center mt-auto mb-6 swipe-enter-active">
-      <p>Glisser pour voyager</p>
-      <img :src="swipe"  alt="Swipe icon" class="swipe"/>
     </div>
   </div>
 </template>

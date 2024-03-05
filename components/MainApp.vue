@@ -8,11 +8,16 @@
         :temperature="temperature"
         :weather="weatherSpecs"
     />
+    <div id="swipe" class="flex flex-col font-bold items-center mt-auto mb-6 swipe-enter-active fixed bottom-0 w-full">
+      <p>Glisser pour voyager</p>
+      <img :src="swipe"  alt="Swipe icon" class="swipe opacity-80"/>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
 import { icons } from "assets/img";
 import { weatherIcons} from "assets/img/weather";
+import swipe from "assets/img/swipe.svg";
 
 const loaded = ref(false);
 const city = ref(null);
@@ -75,6 +80,12 @@ function determineWeather() {
     currentBackground.value = isSunny.value ? weatherProperty.sunnyCloudy.bg : weatherProperty.cloudy.bg;
     weatherSpecs.value = isSunny.value ? weatherProperty.sunnyCloudy : weatherProperty.cloudy;
   }
+}
+
+function handleSwipeUp() {
+  // Réinitialiser le composant pour afficher le loader et recharger les données
+  loaded.value = false;
+  loadData();
 }
 
 onMounted(() => {
