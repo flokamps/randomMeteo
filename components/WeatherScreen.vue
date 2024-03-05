@@ -39,7 +39,6 @@ const handleScroll = () => {
   const scrollDistance = mainDiv.value.scrollTop;
 
   swipeElement.value.style.transform = `translateY(${scrollDistance / 5}px)`;
-  swipeElement.value.style.transition = 'transform 0.3s ease-out';
 };
 
 onMounted(() => {
