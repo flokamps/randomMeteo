@@ -30,13 +30,20 @@ const props = defineProps({
   temperature: Number,
   weather: Object,
 });
+const emit = defineEmits(['reload'])
 
 const mainDiv = inject('mainDiv');
 
 const swipeElement = ref(null);
 const handleScroll = () => {
+  const windowHeight = window.innerHeight;
 
   const scrollDistance = mainDiv.value.scrollTop;
+
+  if (scrollDistance >= windowHeight) {
+    console.log('emit');
+    emit('reload');
+  }
 
   swipeElement.value.style.transform = `translateY(${scrollDistance / 5}px)`;
 };

@@ -2,12 +2,14 @@
   <div v-if="!loaded">
     <Loader :initial="true"/>
   </div>
-  <div v-else :style="{ backgroundImage: currentBackground, color: fontColor }" class="bg-fixed h-screen overflow-y-scroll" ref="mainDiv" id="main-div">
+  <div v-else :style="{ backgroundImage: currentBackground, color: fontColor }" class="bg-fixed h-screen overflow-y-scroll" ref="mainDiv" id="main-div" :key="reloadData">
     <WeatherScreen
+        v-if="!reloadData"
         class="h-screen snap-start"
         :city="cityName"
         :temperature="temperature"
         :weather="weatherSpecs"
+        @reload="reloadData = true"
     />
     <Loader class="snap-start"/>
   </div>
@@ -15,6 +17,7 @@
 <script setup lang="ts">
 import { icons } from "assets/img";
 import { weatherIcons} from "assets/img/weather";
+import { watch } from "vue";
 
 const loaded = ref(false);
 const city = ref(null);
@@ -26,6 +29,15 @@ const fontColor = ref("");
 const isSunny = ref(false);
 const weatherSpecs = ref(null);
 const mainDiv = ref(null);
+const reloadData = ref(false);
+
+watch(reloadData, async (newVal) => {
+  if (newVal) {
+    console.log('reload');
+    await loadData();
+    reloadData.value = false;
+  }
+});
 
 provide('mainDiv', mainDiv);
 
@@ -50,7 +62,7 @@ async function loadData() {
 
   determineWeather();
 
-  await new Promise(resolve => setTimeout(resolve, 3000));
+  await new Promise(resolve => setTimeout(resolve, 1000));
   loaded.value = true;
 }
 
