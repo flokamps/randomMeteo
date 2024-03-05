@@ -40,6 +40,15 @@
     }
 }
 
+@keyframes swipe {
+    0%, 33.33%, 100% { /* Commence à 0%, maintient la position à 33.33% pour simuler la pause, et reste à 100% */
+        transform: translateY(0);
+    }
+    16.67% { /* Atteint le point le plus haut à 16.67%, ce qui est à mi-chemin de la partie active de l'animation */
+        transform: translateY(-20%);
+    }
+}
+
 #weatherIcon {
     height: 410px;
 }
@@ -109,6 +118,9 @@ body {
 }
 .slide-enter-active {
     animation: bounceIn 0.1s ease forwards;
+}
+.swipe {
+    animation: swipe 3s ease-in-out infinite;
 }
 .slide-enter, .slide-leave-to {
     position: absolute;
