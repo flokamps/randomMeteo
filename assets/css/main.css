@@ -44,6 +44,14 @@
     }
 }
 
+#temperature p {
+    font-size: 9vh;
+}
+
+#city p {
+    font-size: 5vh;
+}
+
 @keyframes swipe {
     0%, 33.33%, 100% { /* Commence à 0%, maintient la position à 33.33% pour simuler la pause, et reste à 100% */
         transform: translateY(0);

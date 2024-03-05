@@ -102,31 +102,6 @@
   {
     "data": [
       {
-        "id": 144660,
-        "wikiDataId": "Q3113",
-        "type": "ADM2",
-        "city": "Allier",
-        "name": "Allier",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Auvergne-Rhône-Alpes",
-        "regionCode": "ARA",
-        "regionWdId": "Q18338206",
-        "latitude": 46.333333333,
-        "longitude": 3.166666666,
-        "population": 334872,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 40,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 43510,
         "wikiDataId": "Q193183",
         "type": "CITY",
@@ -327,56 +302,6 @@
   {
     "data": [
       {
-        "id": 144655,
-        "wikiDataId": "Q3164",
-        "type": "ADM2",
-        "city": "Ardennes",
-        "name": "Ardennes",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Grand Est",
-        "regionCode": "GES",
-        "regionWdId": "Q18677983",
-        "latitude": 49.578611111,
-        "longitude": 4.586666666,
-        "population": 268859,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 51,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144656,
-        "wikiDataId": "Q3148",
-        "type": "ADM2",
-        "city": "Ardèche",
-        "name": "Ardèche",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Auvergne-Rhône-Alpes",
-        "regionCode": "ARA",
-        "regionWdId": "Q18338206",
-        "latitude": 44.666666666,
-        "longitude": 4.416666666,
-        "population": 331415,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 52,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 43104,
         "wikiDataId": "Q181946",
         "type": "CITY",
@@ -396,31 +321,6 @@
     ],
     "metadata": {
       "currentOffset": 53,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144657,
-        "wikiDataId": "Q3184",
-        "type": "ADM2",
-        "city": "Ariège",
-        "name": "Ariège",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Occitania",
-        "regionCode": "OCC",
-        "regionWdId": "Q18678265",
-        "latitude": 43,
-        "longitude": 1.5,
-        "population": 154596,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 54,
       "totalCount": 629
     }
   },
@@ -496,56 +396,6 @@
     ],
     "metadata": {
       "currentOffset": 65,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 2987689,
-        "wikiDataId": "Q3194",
-        "type": "ADM2",
-        "city": "Aube",
-        "name": "Aube",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Grand Est",
-        "regionCode": "GES",
-        "regionWdId": "Q18677983",
-        "latitude": 48.333333333,
-        "longitude": 4.166666666,
-        "population": 311329,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 66,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144652,
-        "wikiDataId": "Q3216",
-        "type": "ADM2",
-        "city": "Aveyron",
-        "name": "Aveyron",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Occitania",
-        "regionCode": "OCC",
-        "regionWdId": "Q18678265",
-        "latitude": 44.25,
-        "longitude": 2.7,
-        "population": 279649,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 69,
       "totalCount": 629
     }
   },
@@ -977,31 +827,6 @@
   {
     "data": [
       {
-        "id": 144648,
-        "wikiDataId": "Q3249",
-        "type": "ADM2",
-        "city": "Calvados",
-        "name": "Calvados",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Normandy",
-        "regionCode": "NOR",
-        "regionWdId": "Q18677875",
-        "latitude": 49.033333333,
-        "longitude": 0.25,
-        "population": 700633,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 94,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 42273,
         "wikiDataId": "Q39984",
         "type": "CITY",
@@ -1021,31 +846,6 @@
     ],
     "metadata": {
       "currentOffset": 95,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144647,
-        "wikiDataId": "Q3259",
-        "type": "ADM2",
-        "city": "Cantal",
-        "name": "Cantal",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Auvergne-Rhône-Alpes",
-        "regionCode": "ARA",
-        "regionWdId": "Q18338206",
-        "latitude": 45.033333333,
-        "longitude": 3.1,
-        "population": 144226,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 96,
       "totalCount": 629
     }
   },
@@ -1127,31 +927,6 @@
   {
     "data": [
       {
-        "id": 3474091,
-        "wikiDataId": "Q33662520",
-        "type": "ADM2",
-        "city": "Cayenne",
-        "name": "Cayenne",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "French Guiana",
-        "regionCode": "GF",
-        "regionWdId": "Q3769",
-        "latitude": 4.9386,
-        "longitude": -52.335,
-        "population": 60580,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 100,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 41371,
         "wikiDataId": "Q193903",
         "type": "CITY",
@@ -1202,31 +977,6 @@
   {
     "data": [
       {
-        "id": 144645,
-        "wikiDataId": "Q3266",
-        "type": "ADM2",
-        "city": "Charente",
-        "name": "Charente",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 45.833333333,
-        "longitude": 0.333333333,
-        "population": 350867,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 106,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 41520,
         "wikiDataId": "Q272916",
         "type": "CITY",
@@ -1246,31 +996,6 @@
     ],
     "metadata": {
       "currentOffset": 109,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144644,
-        "wikiDataId": "Q3286",
-        "type": "ADM2",
-        "city": "Cher",
-        "name": "Cher",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Centre-Val de Loire",
-        "regionCode": "CVL",
-        "regionWdId": "Q13947",
-        "latitude": 47.081111111,
-        "longitude": 2.444444444,
-        "population": 299573,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 110,
       "totalCount": 629
     }
   },
@@ -1477,31 +1202,6 @@
   {
     "data": [
       {
-        "id": 2968935,
-        "wikiDataId": "Q3326",
-        "type": "ADM2",
-        "city": "Corrèze",
-        "name": "Corrèze",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 45.333333333,
-        "longitude": 1.833333333,
-        "population": 239784,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 123,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 41117,
         "wikiDataId": "Q189715",
         "type": "CITY",
@@ -1521,31 +1221,6 @@
     ],
     "metadata": {
       "currentOffset": 125,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144639,
-        "wikiDataId": "Q3353",
-        "type": "ADM2",
-        "city": "Creuse",
-        "name": "Creuse",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 46.583333333,
-        "longitude": 2.05,
-        "population": 115702,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 126,
       "totalCount": 629
     }
   },
@@ -1577,56 +1252,6 @@
   {
     "data": [
       {
-        "id": 144641,
-        "wikiDataId": "Q3342",
-        "type": "ADM2",
-        "city": "Côte-d’Or",
-        "name": "Côte-d’Or",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Bourgogne-Franche-Comté",
-        "regionCode": "BFC",
-        "regionWdId": "Q18578267",
-        "latitude": 47.416666666,
-        "longitude": 4.833333333,
-        "population": 535503,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 128,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144638,
-        "wikiDataId": "Q12765",
-        "type": "ADM2",
-        "city": "Deux-Sèvres",
-        "name": "Deux-Sèvres",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 46.53918,
-        "longitude": -0.30838,
-        "population": 374587,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 130,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 41309,
         "wikiDataId": "Q7003",
         "type": "CITY",
@@ -1646,56 +1271,6 @@
     ],
     "metadata": {
       "currentOffset": 131,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144636,
-        "wikiDataId": "Q3357",
-        "type": "ADM2",
-        "city": "Dordogne",
-        "name": "Dordogne",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 45,
-        "longitude": 0.666666666,
-        "population": 413730,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 132,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 3023000,
-        "wikiDataId": "Q3361",
-        "type": "ADM2",
-        "city": "Doubs",
-        "name": "Doubs",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Bourgogne-Franche-Comté",
-        "regionCode": "BFC",
-        "regionWdId": "Q18578267",
-        "latitude": 47.166666666,
-        "longitude": 6.416666666,
-        "population": 547096,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 133,
       "totalCount": 629
     }
   },
@@ -1727,31 +1302,6 @@
   {
     "data": [
       {
-        "id": 144637,
-        "wikiDataId": "Q3364",
-        "type": "ADM2",
-        "city": "Drôme",
-        "name": "Drôme",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Auvergne-Rhône-Alpes",
-        "regionCode": "ARA",
-        "regionWdId": "Q18338206",
-        "latitude": 44.75,
-        "longitude": 5.166666666,
-        "population": 519458,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 135,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 40345,
         "wikiDataId": "Q45797",
         "type": "CITY",
@@ -1771,81 +1321,6 @@
     ],
     "metadata": {
       "currentOffset": 136,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144633,
-        "wikiDataId": "Q3368",
-        "type": "ADM2",
-        "city": "Essonne",
-        "name": "Essonne",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Île-de-France",
-        "regionCode": "IDF",
-        "regionWdId": "Q13917",
-        "latitude": 48.5,
-        "longitude": 2.283333333,
-        "population": 1313768,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 137,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144634,
-        "wikiDataId": "Q3372",
-        "type": "ADM2",
-        "city": "Eure",
-        "name": "Eure",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Normandy",
-        "regionCode": "NOR",
-        "regionWdId": "Q18677875",
-        "latitude": 49.083333333,
-        "longitude": 1,
-        "population": 598934,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 138,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144631,
-        "wikiDataId": "Q3389",
-        "type": "ADM2",
-        "city": "Finistère",
-        "name": "Finistère",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Brittany",
-        "regionCode": "BRE",
-        "regionWdId": "Q12130",
-        "latitude": 48.25,
-        "longitude": -4,
-        "population": 921638,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 140,
       "totalCount": 629
     }
   },
@@ -1927,81 +1402,6 @@
   {
     "data": [
       {
-        "id": 144630,
-        "wikiDataId": "Q12515",
-        "type": "ADM2",
-        "city": "Gard",
-        "name": "Gard",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Occitania",
-        "regionCode": "OCC",
-        "regionWdId": "Q18678265",
-        "latitude": 44.128055555,
-        "longitude": 4.081666666,
-        "population": 756543,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 146,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144629,
-        "wikiDataId": "Q12517",
-        "type": "ADM2",
-        "city": "Gers",
-        "name": "Gers",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Occitania",
-        "regionCode": "OCC",
-        "regionWdId": "Q18678265",
-        "latitude": 43.65,
-        "longitude": 0.583333333,
-        "population": 192437,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 149,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144628,
-        "wikiDataId": "Q12526",
-        "type": "ADM2",
-        "city": "Gironde",
-        "name": "Gironde",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 44.69306,
-        "longitude": -0.414,
-        "population": 1654970,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 150,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 39993,
         "wikiDataId": "Q173705",
         "type": "CITY",
@@ -2052,131 +1452,6 @@
   {
     "data": [
       {
-        "id": 144624,
-        "wikiDataId": "Q12722",
-        "type": "ADM2",
-        "city": "Haut-Rhin",
-        "name": "Haut-Rhin",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Grand Est",
-        "regionCode": "GES",
-        "regionWdId": "Q18677983",
-        "latitude": 47.964167,
-        "longitude": 7.319722,
-        "population": 767083,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 153,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144617,
-        "wikiDataId": "Q3334",
-        "type": "ADM2",
-        "city": "Haute-Corse",
-        "name": "Haute-Corse",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Corsica",
-        "regionCode": "20R",
-        "regionWdId": "Q14112",
-        "latitude": 42.466666666,
-        "longitude": 9.2,
-        "population": 184655,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 154,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144620,
-        "wikiDataId": "Q12572",
-        "type": "ADM2",
-        "city": "Haute-Loire",
-        "name": "Haute-Loire",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Auvergne-Rhône-Alpes",
-        "regionCode": "ARA",
-        "regionWdId": "Q18338206",
-        "latitude": 45,
-        "longitude": 4,
-        "population": 227284,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 156,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144618,
-        "wikiDataId": "Q12607",
-        "type": "ADM2",
-        "city": "Haute-Marne",
-        "name": "Haute-Marne",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Grand Est",
-        "regionCode": "GES",
-        "regionWdId": "Q18677983",
-        "latitude": 48.083333333,
-        "longitude": 5.25,
-        "population": 171042,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 157,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144621,
-        "wikiDataId": "Q12730",
-        "type": "ADM2",
-        "city": "Haute-Saône",
-        "name": "Haute-Saône",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Bourgogne-Franche-Comté",
-        "regionCode": "BFC",
-        "regionWdId": "Q18578267",
-        "latitude": 47.583333333,
-        "longitude": 6,
-        "population": 234296,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 159,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 39916,
         "wikiDataId": "Q192574",
         "type": "CITY",
@@ -2196,56 +1471,6 @@
     ],
     "metadata": {
       "currentOffset": 164,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144616,
-        "wikiDataId": "Q12545",
-        "type": "ADM2",
-        "city": "Hérault",
-        "name": "Hérault",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Occitania",
-        "regionCode": "OCC",
-        "regionWdId": "Q18678265",
-        "latitude": 43.610919444,
-        "longitude": 3.877230555,
-        "population": 1201883,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 165,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144613,
-        "wikiDataId": "Q12553",
-        "type": "ADM2",
-        "city": "Indre",
-        "name": "Indre",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Centre-Val de Loire",
-        "regionCode": "CVL",
-        "regionWdId": "Q13947",
-        "latitude": 46.766666666,
-        "longitude": 1.6,
-        "population": 217228,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 167,
       "totalCount": 629
     }
   },
@@ -2277,56 +1502,6 @@
   {
     "data": [
       {
-        "id": 144612,
-        "wikiDataId": "Q12559",
-        "type": "ADM2",
-        "city": "Isère",
-        "name": "Isère",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Auvergne-Rhône-Alpes",
-        "regionCode": "ARA",
-        "regionWdId": "Q18338206",
-        "latitude": 45.183333333,
-        "longitude": 5.716666666,
-        "population": 1284948,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 171,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 144611,
-        "wikiDataId": "Q3120",
-        "type": "ADM2",
-        "city": "Jura",
-        "name": "Jura",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Bourgogne-Franche-Comté",
-        "regionCode": "BFC",
-        "regionWdId": "Q18578267",
-        "latitude": 46.675278,
-        "longitude": 5.554444,
-        "population": 258555,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 173,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 39495,
         "wikiDataId": "Q82185",
         "type": "CITY",
@@ -2352,6 +1527,31 @@
   {
     "data": [
       {
+        "id": 39488,
+        "wikiDataId": "Q184154",
+        "type": "CITY",
+        "city": "Laval",
+        "name": "Laval",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Pays de la Loire",
+        "regionCode": "PDL",
+        "regionWdId": "Q16994",
+        "latitude": 48.072777777,
+        "longitude": -0.77,
+        "population": 49657,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 179,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
         "id": 39242,
         "wikiDataId": "Q207967",
         "type": "CITY",
@@ -2371,6 +1571,931 @@
     ],
     "metadata": {
       "currentOffset": 181,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 39166,
+        "wikiDataId": "Q42810",
+        "type": "CITY",
+        "city": "Le Havre",
+        "name": "Le Havre",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Normandy",
+        "regionCode": "NOR",
+        "regionWdId": "Q18677875",
+        "latitude": 49.494166666,
+        "longitude": 0.108055555,
+        "population": 166058,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 182,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 39032,
+        "wikiDataId": "Q1476",
+        "type": "CITY",
+        "city": "Le Mans",
+        "name": "Le Mans",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Pays de la Loire",
+        "regionCode": "PDL",
+        "regionWdId": "Q16994",
+        "latitude": 48.004166666,
+        "longitude": 0.196944444,
+        "population": 145004,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 183,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3474111,
+        "wikiDataId": "Q13648",
+        "type": "CITY",
+        "city": "Le Tampon",
+        "name": "Le Tampon",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Réunion",
+        "regionCode": "RE",
+        "regionWdId": "Q17070",
+        "latitude": -21.278055555,
+        "longitude": 55.515277777,
+        "population": 81943,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 184,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3474185,
+        "wikiDataId": "Q13636",
+        "type": "CITY",
+        "city": "Les Abymes",
+        "name": "Les Abymes",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Guadeloupe",
+        "regionCode": "GP",
+        "regionWdId": "Q17012",
+        "latitude": 16.270555555,
+        "longitude": -61.504722222,
+        "population": 52118,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 185,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3719016,
+        "wikiDataId": "Q648",
+        "type": "CITY",
+        "city": "Lille",
+        "name": "Lille",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Hauts-de-France",
+        "regionCode": "HDF",
+        "regionWdId": "Q18677767",
+        "latitude": 50.631944444,
+        "longitude": 3.0575,
+        "population": 236710,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 188,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3719016,
+        "wikiDataId": "Q648",
+        "type": "CITY",
+        "city": "Lille",
+        "name": "Lille",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Hauts-de-France",
+        "regionCode": "HDF",
+        "regionWdId": "Q18677767",
+        "latitude": 50.631944444,
+        "longitude": 3.0575,
+        "population": 236234,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 189,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 39597,
+        "wikiDataId": "Q45656",
+        "type": "CITY",
+        "city": "Limoges",
+        "name": "Limoges",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "New Aquitaine",
+        "regionCode": "NAQ",
+        "regionWdId": "Q18678082",
+        "latitude": 45.834444444,
+        "longitude": 1.261666666,
+        "population": 129760,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 190,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38750,
+        "wikiDataId": "Q71724",
+        "type": "CITY",
+        "city": "Lorient",
+        "name": "Lorient",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Brittany",
+        "regionCode": "BRE",
+        "regionWdId": "Q12130",
+        "latitude": 47.745833333,
+        "longitude": -3.366388888,
+        "population": 57846,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 196,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38517,
+        "wikiDataId": "Q456",
+        "type": "CITY",
+        "city": "Lyon",
+        "name": "Lyon",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Auvergne-Rhône-Alpes",
+        "regionCode": "ARA",
+        "regionWdId": "Q18338206",
+        "latitude": 45.758888888,
+        "longitude": 4.841388888,
+        "population": 522250,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 200,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3474686,
+        "wikiDataId": "Q132676",
+        "type": "CITY",
+        "city": "Mamoudzou",
+        "name": "Mamoudzou",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Mayotte",
+        "regionCode": "YT",
+        "regionWdId": "Q17063",
+        "latitude": -12.781388888,
+        "longitude": 45.231666666,
+        "population": 71437,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 203,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3474686,
+        "wikiDataId": "Q132676",
+        "type": "CITY",
+        "city": "Mamoudzou",
+        "name": "Mamoudzou",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Mayotte",
+        "regionCode": "YT",
+        "regionWdId": "Q17063",
+        "latitude": -12.781388888,
+        "longitude": 45.231666666,
+        "population": 71437,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 204,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38211,
+        "wikiDataId": "Q23482",
+        "type": "CITY",
+        "city": "Marseille",
+        "name": "Marseille",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "regionCode": "PAC",
+        "regionWdId": "Q15104",
+        "latitude": 43.296666666,
+        "longitude": 5.376388888,
+        "population": 873076,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 208,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38625,
+        "wikiDataId": "Q237516",
+        "type": "CITY",
+        "city": "Martigues",
+        "name": "Martigues",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "regionCode": "PAC",
+        "regionWdId": "Q15104",
+        "latitude": 43.405277777,
+        "longitude": 5.0475,
+        "population": 48568,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 210,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38259,
+        "wikiDataId": "Q274249",
+        "type": "CITY",
+        "city": "Massy",
+        "name": "Massy",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.730555555,
+        "longitude": 2.276388888,
+        "population": 50962,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 211,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38463,
+        "wikiDataId": "Q207620",
+        "type": "CITY",
+        "city": "Meaux",
+        "name": "Meaux",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.959444444,
+        "longitude": 2.887777777,
+        "population": 55616,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 213,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38452,
+        "wikiDataId": "Q41139",
+        "type": "CITY",
+        "city": "Melun",
+        "name": "Melun",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.539722222,
+        "longitude": 2.659166666,
+        "population": 42367,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 214,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3534807,
+        "wikiDataId": "Q22690",
+        "type": "CITY",
+        "city": "Metz",
+        "name": "Metz",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Grand Est",
+        "regionCode": "GES",
+        "regionWdId": "Q18677983",
+        "latitude": 49.119722222,
+        "longitude": 6.176944444,
+        "population": 120874,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 215,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38726,
+        "wikiDataId": "Q234735",
+        "type": "CITY",
+        "city": "Meudon",
+        "name": "Meudon",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.8075,
+        "longitude": 2.240277777,
+        "population": 46342,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 216,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3568449,
+        "wikiDataId": "Q172593",
+        "type": "CITY",
+        "city": "Montauban",
+        "name": "Montauban",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Occitania",
+        "regionCode": "OCC",
+        "regionWdId": "Q18678265",
+        "latitude": 44.017222222,
+        "longitude": 1.355,
+        "population": 61919,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 219,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38439,
+        "wikiDataId": "Q6441",
+        "type": "CITY",
+        "city": "Montpellier",
+        "name": "Montpellier",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Occitania",
+        "regionCode": "OCC",
+        "regionWdId": "Q18678265",
+        "latitude": 43.610919444,
+        "longitude": 3.877230555,
+        "population": 302454,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 220,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38441,
+        "wikiDataId": "Q193370",
+        "type": "CITY",
+        "city": "Montreuil",
+        "name": "Montreuil",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.860277777,
+        "longitude": 2.443055555,
+        "population": 111455,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 221,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38239,
+        "wikiDataId": "Q241021",
+        "type": "CITY",
+        "city": "Montrouge",
+        "name": "Montrouge",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.816388888,
+        "longitude": 2.321111111,
+        "population": 47657,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 222,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38008,
+        "wikiDataId": "Q234270",
+        "type": "CITY",
+        "city": "Montélimar",
+        "name": "Montélimar",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Auvergne-Rhône-Alpes",
+        "regionCode": "ARA",
+        "regionWdId": "Q18338206",
+        "latitude": 44.558611111,
+        "longitude": 4.750833333,
+        "population": 40399,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 223,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38238,
+        "wikiDataId": "Q79815",
+        "type": "CITY",
+        "city": "Mulhouse",
+        "name": "Mulhouse",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Grand Est",
+        "regionCode": "GES",
+        "regionWdId": "Q18677983",
+        "latitude": 47.748611111,
+        "longitude": 7.339166666,
+        "population": 106341,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 226,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38869,
+        "wikiDataId": "Q205551",
+        "type": "CITY",
+        "city": "Mérignac",
+        "name": "Mérignac",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "New Aquitaine",
+        "regionCode": "NAQ",
+        "regionWdId": "Q18678082",
+        "latitude": 44.8425,
+        "longitude": -0.645,
+        "population": 75729,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 227,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38869,
+        "wikiDataId": "Q205551",
+        "type": "CITY",
+        "city": "Mérignac",
+        "name": "Mérignac",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "New Aquitaine",
+        "regionCode": "NAQ",
+        "regionWdId": "Q18678082",
+        "latitude": 44.8425,
+        "longitude": -0.645,
+        "population": 74009,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 228,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38318,
+        "wikiDataId": "Q40898",
+        "type": "CITY",
+        "city": "Nancy",
+        "name": "Nancy",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Grand Est",
+        "regionCode": "GES",
+        "regionWdId": "Q18677983",
+        "latitude": 48.692777777,
+        "longitude": 6.183611111,
+        "population": 104260,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 229,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38043,
+        "wikiDataId": "Q170507",
+        "type": "CITY",
+        "city": "Nanterre",
+        "name": "Nanterre",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.890555555,
+        "longitude": 2.203611111,
+        "population": 97351,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 230,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38223,
+        "wikiDataId": "Q12191",
+        "type": "CITY",
+        "city": "Nantes",
+        "name": "Nantes",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Pays de la Loire",
+        "regionCode": "PDL",
+        "regionWdId": "Q16994",
+        "latitude": 47.217222222,
+        "longitude": -1.553888888,
+        "population": 323204,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 231,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38804,
+        "wikiDataId": "Q6555",
+        "type": "CITY",
+        "city": "Narbonne",
+        "name": "Narbonne",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Occitania",
+        "regionCode": "OCC",
+        "regionWdId": "Q18678265",
+        "latitude": 43.184722222,
+        "longitude": 3.003611111,
+        "population": 56395,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 232,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 38868,
+        "wikiDataId": "Q33959",
+        "type": "CITY",
+        "city": "Nice",
+        "name": "Nice",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "regionCode": "PAC",
+        "regionWdId": "Q15104",
+        "latitude": 43.701944444,
+        "longitude": 7.268333333,
+        "population": 348085,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 234,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 37170,
+        "wikiDataId": "Q184159",
+        "type": "CITY",
+        "city": "Niort",
+        "name": "Niort",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "New Aquitaine",
+        "regionCode": "NAQ",
+        "regionWdId": "Q18678082",
+        "latitude": 46.325,
+        "longitude": -0.462222222,
+        "population": 59309,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 235,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 3474066,
+        "wikiDataId": "Q9733",
+        "type": "CITY",
+        "city": "Noumea",
+        "name": "Noumea",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "New Caledonia",
+        "regionCode": "NC",
+        "regionWdId": "Q33788",
+        "latitude": -22.266666666,
+        "longitude": 166.45,
+        "population": 96082,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 241,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 37145,
+        "wikiDataId": "Q42807",
+        "type": "CITY",
+        "city": "Nîmes",
+        "name": "Nîmes",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Occitania",
+        "regionCode": "OCC",
+        "regionWdId": "Q18678265",
+        "latitude": 43.838333333,
+        "longitude": 4.359722222,
+        "population": 148104,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 242,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 37190,
+        "wikiDataId": "Q6548",
+        "type": "CITY",
+        "city": "Orléans",
+        "name": "Orléans",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Centre-Val de Loire",
+        "regionCode": "CVL",
+        "regionWdId": "Q13947",
+        "latitude": 47.902222222,
+        "longitude": 1.904166666,
+        "population": 116617,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 244,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 37109,
+        "wikiDataId": "Q209086",
+        "type": "CITY",
+        "city": "Pantin",
+        "name": "Pantin",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.898055555,
+        "longitude": 2.407222222,
+        "population": 60800,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 246,
+      "totalCount": 629
+    }
+  },
+  {
+    "data": [
+      {
+        "id": 144571,
+        "wikiDataId": "Q90",
+        "type": "CITY",
+        "city": "Paris",
+        "name": "Paris",
+        "country": "France",
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "regionCode": "IDF",
+        "regionWdId": "Q13917",
+        "latitude": 48.856666666,
+        "longitude": 2.352222222,
+        "population": 2145906,
+        "distance": null,
+        "placeType": "CITY"
+      }
+    ],
+    "metadata": {
+      "currentOffset": 247,
       "totalCount": 629
     }
   }
