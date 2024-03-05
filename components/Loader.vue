@@ -2,12 +2,12 @@
   <div class="flex justify-center items-center h-screen flex-col background-container">
     <div v-if="props.initial" :style="{ backgroundImage: currentGradient }" class="background" :class="{'next': odd}"></div>
     <div v-if="props.initial" :style="{ backgroundImage: nextGradient }" class="background" :class="{'next': !odd}"></div>
-    <div class="slider-container">
+    <div class="slider-container w-12 h-12">
       <transition name="slide" id="loader-svg" mode="out-in">
         <img :key="currentImageSrc" :src="currentImageSrc" alt="loader" class="h-full" />
       </transition>
     </div>
-    <p id="loader-text" class="font-bold">Téléportation en cours...</p>
+    <p id="loader-text" class="font-bold text-lg">Téléportation en cours...</p>
   </div>
 </template>
 <script setup>

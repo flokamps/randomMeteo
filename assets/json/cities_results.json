@@ -2352,56 +2352,6 @@
   {
     "data": [
       {
-        "id": 3050078,
-        "wikiDataId": "Q12563",
-        "type": "ADM2",
-        "city": "Landes",
-        "name": "Landes",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "New Aquitaine",
-        "regionCode": "NAQ",
-        "regionWdId": "Q18678082",
-        "latitude": 43.878055555,
-        "longitude": -0.867777777,
-        "population": 422976,
-        "distance": null,
-        "placeType": "ADM2"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 178,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
-        "id": 39488,
-        "wikiDataId": "Q184154",
-        "type": "CITY",
-        "city": "Laval",
-        "name": "Laval",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Pays de la Loire",
-        "regionCode": "PDL",
-        "regionWdId": "Q16994",
-        "latitude": 48.072777777,
-        "longitude": -0.77,
-        "population": 49657,
-        "distance": null,
-        "placeType": "CITY"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 179,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 39242,
         "wikiDataId": "Q207967",
         "type": "CITY",

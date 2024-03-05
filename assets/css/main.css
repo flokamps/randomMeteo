@@ -53,32 +53,12 @@
     }
 }
 
-#weatherIcon {
-    height: 430px;
-}
-
 #weatherIcon img {
     right: -110px;
 }
 
-#swipe img {
-    height: 48px;
-}
-
-#temperature p {
-    font-size: 104px;
-}
-
-#weatherDescription p {
-    font-size: 17px;
-}
-
 #weatherDescription img {
     max-height: 15px;
-}
-
-#city p {
-    font-size: 48px;
 }
 
 body {
@@ -86,7 +66,6 @@ body {
 }
 
 #loader-text {
-    font-size: 17px;
     z-index: 1;
 }
 
@@ -101,8 +80,6 @@ body {
     overflow: hidden;
     position: relative;
     z-index: 1;
-    width: 47px;
-    height: 47px;
 }
 
 .cover-enter-active {
