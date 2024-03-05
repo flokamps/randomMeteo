@@ -18,7 +18,7 @@
         <p class="font-light">Montluçon est une commune française située dans le centre de la France, sous-préfecture du département de l'Allier dans la région Auvergne-Rhône-Alpes...</p>
       </div>
     </div>
-    <div id="swipe" class="flex flex-col font-bold items-center mt-auto mb-6 swipe-enter-active fixed bottom-0 w-full">
+    <div ref="swipeElement" id="swipe" class="flex flex-col font-bold items-center mt-auto mb-6 swipe-enter-active fixed bottom-0 w-full">
       <p>Glisser pour voyager</p>
       <img :src="swipe"  alt="Swipe icon" class="swipe opacity-80"/>
     </div>
@@ -29,6 +29,26 @@ const props = defineProps({
   city: String,
   temperature: Number,
   weather: Object,
+});
+
+const mainDiv = inject('mainDiv');
+
+const swipeElement = ref(null);
+const handleScroll = () => {
+
+  const scrollDistance = mainDiv.value.scrollTop;
+
+  swipeElement.value.style.transform = `translateY(${scrollDistance / 5}px)`;
+  swipeElement.value.style.transition = 'transform 0.3s ease-out';
+};
+
+onMounted(() => {
+  swipeElement.value.classList.remove('swipe-enter-active');
+  mainDiv.value.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  mainDiv.value.removeEventListener('scroll', handleScroll);
 });
 
 import swipe from "~/assets/img/swipe.svg";

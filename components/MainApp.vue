@@ -2,7 +2,7 @@
   <div v-if="!loaded">
     <Loader :initial="true"/>
   </div>
-  <div v-else :style="{ backgroundImage: currentBackground, color: fontColor }" class="bg-fixed h-screen overflow-y-scroll" id="main-div">
+  <div v-else :style="{ backgroundImage: currentBackground, color: fontColor }" class="bg-fixed h-screen overflow-y-scroll" ref="mainDiv" id="main-div">
     <WeatherScreen
         class="h-screen snap-start"
         :city="cityName"
@@ -25,6 +25,9 @@ const currentBackground = ref("");
 const fontColor = ref("");
 const isSunny = ref(false);
 const weatherSpecs = ref(null);
+const mainDiv = ref(null);
+
+provide('mainDiv', mainDiv);
 
 const weatherProperty = {
   sunny: { bg: "linear-gradient(to bottom, #FFE79A, #FFFFFF)", font: '#51401F', credo: 'Ensoleillé', icon: icons.sun, cover: weatherIcons.sun },
