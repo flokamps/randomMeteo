@@ -16,8 +16,32 @@
     }
 }
 
+@keyframes coverIn {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(-2%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes textsIn {
+    0% {
+        transform: translateY(100%);
+    }
+    50% {
+        transform: translateY(-5%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 #weatherIcon {
-    height: 380px;
+    height: 410px;
 }
 
 #weatherIcon img {
@@ -34,6 +58,10 @@
 
 #weatherDescription p {
     font-size: 17px;
+}
+
+#weatherDescription img {
+    max-height: 15px;
 }
 
 #city p {
@@ -62,6 +90,18 @@ body {
     z-index: 1;
     width: 47px;
     height: 47px;
+}
+
+.cover-enter-active {
+    animation: coverIn 1s ease forwards;
+}
+
+.swipe-enter-active {
+    animation: textsIn 1s ease forwards;
+}
+
+.texts-enter-active {
+    animation: textsIn 1s ease forwards;
 }
 
 .slide-leave-active {
