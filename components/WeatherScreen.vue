@@ -15,12 +15,14 @@
         <p class="font-bold">{{ props.city }}</p>
       </div>
       <div id="cityDescription">
-        <p class="font-light">Montluçon est une commune française située dans le centre de la France, sous-préfecture du département de l'Allier dans la région Auvergne-Rhône-Alpes...</p>
+        <p class="font-light pr-5">{{ props.description.length > 150 ? props.description.slice(0, 150) : props.description }}... <a v-if="props.wikiLink" :href="props.wikiLink" class="font-bold" :style="{ color: weather.moreFont }">en savoir plus</a></p>
       </div>
     </div>
-    <div ref="swipeElement" id="swipe" class="flex flex-col font-bold items-center mt-auto mb-6 swipe-enter-active fixed bottom-0 w-full">
-      <p>Glisser pour voyager</p>
-      <img :src="swipe"  alt="Swipe icon" class="swipe opacity-80"/>
+    <div ref="swipeElement" id="swipe" class="mt-auto mb-6 fixed bottom-0 w-full">
+      <div id="baseSwap" class="flex flex-col font-bold items-center swipe-enter-active w-full">
+        <p>Glisser pour voyager</p>
+        <img :src="swipe"  alt="Swipe icon" class="swipe opacity-80"/>
+      </div>
     </div>
   </div>
 </template>
@@ -29,6 +31,8 @@ const props = defineProps({
   city: String,
   temperature: Number,
   weather: Object,
+  description: String,
+  wikiLink: String,
 });
 const emit = defineEmits(['reload'])
 
@@ -41,7 +45,6 @@ const handleScroll = () => {
   const scrollDistance = mainDiv.value.scrollTop;
 
   if (scrollDistance >= windowHeight) {
-    console.log('emit');
     emit('reload');
   }
 
@@ -49,14 +52,14 @@ const handleScroll = () => {
 };
 
 onMounted(() => {
-  swipeElement.value.classList.remove('swipe-enter-active');
+  if (!swipeElement.value || !mainDiv.value) return;
   mainDiv.value.addEventListener('scroll', handleScroll);
 });
 
 onUnmounted(() => {
+  if (!mainDiv.value) return;
   mainDiv.value.removeEventListener('scroll', handleScroll);
 });
 
 import swipe from "~/assets/img/swipe.svg";
-console.log(props.city, props.temperature);
 </script>
