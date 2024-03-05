@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center h-screen flex-col background-container">
-    <div :style="{ backgroundImage: currentGradient }" class="background" :class="{'next': odd}"></div>
-    <div :style="{ backgroundImage: nextGradient }" class="background" :class="{'next': !odd}"></div>
+    <div v-if="props.initial" :style="{ backgroundImage: currentGradient }" class="background" :class="{'next': odd}"></div>
+    <div v-if="props.initial" :style="{ backgroundImage: nextGradient }" class="background" :class="{'next': !odd}"></div>
     <div class="slider-container">
       <transition name="slide" id="loader-svg" mode="out-in">
         <img :key="currentImageSrc" :src="currentImageSrc" alt="loader" class="h-full" />
@@ -12,6 +12,10 @@
 </template>
 <script setup>
 import {icons} from '~/assets/img/index.js';
+
+const props = defineProps({
+  initial: Boolean,
+});
 
 const images = ref(icons);
 const imagesKeys = Object.keys(images.value);

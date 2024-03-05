@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#main-div {
+    scroll-snap-type: y mandatory;
+}
+
 @keyframes bounceIn {
     0% {
         transform: translateY(100%);
