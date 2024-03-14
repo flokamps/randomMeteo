@@ -1,12 +1,6 @@
-<template>
-  <div v-if="mounted">
-    <div v-if="isMobile">
-      <MainApp />
-    </div>
-    <div v-else>
-      <MobileWarning />
-    </div>
-  </div>
+<template v-if="mounted">
+  <MainApp v-if="isMobile"/>
+  <MobileWarning v-else/>
 </template>
 <script setup lang="ts">
 const mounted = ref(false);
