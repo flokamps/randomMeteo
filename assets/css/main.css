@@ -148,3 +148,7 @@ body {
 .next {
     opacity: 0;
 }
+
+.h-screen {
+    height: 100svh;
+}
