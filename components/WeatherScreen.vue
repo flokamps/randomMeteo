@@ -1,6 +1,6 @@
 <template>
-  <div class="grid">
-    <div id="weatherIcon" class="flex justify-end relative overflow-hidden">
+  <div class="flex flex-col items-center">
+    <div id="weatherIcon" class="flex justify-end relative overflow-hidden w-full h-1/3">
       <img class="absolute cover-enter-active max-h-full" :src="props.weather.cover" alt="Weather cover" />
     </div>
     <div id="texts" class="flex-col flex texts-enter-active pl-5">
@@ -18,7 +18,7 @@
         <p class="font-light pr-5">{{ props.description.length > 150 ? props.description.slice(0, 150) : props.description }}... <a v-if="props.wikiLink" :href="props.wikiLink" class="font-bold" :style="{ color: weather.moreFont }">en savoir plus</a></p>
       </div>
     </div>
-    <div ref="swipeElement" id="swipe" class="mt-auto fixed bottom-0 mb-6 justify-self-center">
+    <div ref="swipeElement" id="swipe" class="mt-auto fixed bottom-0 mb-6">
       <div id="baseSwap" class="flex flex-col font-bold items-center swipe-enter-active w-full">
         <p>Glisser pour voyager</p>
         <img :src="swipe"  alt="Swipe icon" class="swipe opacity-80"/>
