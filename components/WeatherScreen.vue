@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col">
-    <div id="weatherIcon" class="grid justify-end relative overflow-hidden">
+  <div class="grid">
+    <div id="weatherIcon" class="flex justify-end relative overflow-hidden">
       <img class="absolute cover-enter-active max-h-full" :src="props.weather.cover" alt="Weather cover" />
     </div>
     <div id="texts" class="flex-col flex texts-enter-active pl-5">
