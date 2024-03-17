@@ -40,7 +40,7 @@ const mainDiv = inject('mainDiv');
 
 const swipeElement = ref(null);
 const handleScroll = () => {
-  const windowHeight = window.innerHeight - window.innerHeight * 0.3;
+  const windowHeight = window.visualViewport.height;
 
   const scrollDistance = mainDiv.value.scrollTop;
 
