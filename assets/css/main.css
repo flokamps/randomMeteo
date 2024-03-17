@@ -56,6 +56,18 @@
     }
 }
 
+@keyframes settingsInterfaceIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 #temperature p {
     font-size: 9vh;
 }
@@ -118,6 +130,11 @@ body {
     animation: settingsIn 1s ease forwards;
 }
 
+.settings-interface-active {
+    animation: settingsInterfaceIn .5s ease forwards;
+    transform-origin: top left;
+}
+
 .slide-leave-active {
     transition: transform 0.1s ease;
 }
@@ -167,4 +184,17 @@ body {
 
 .h-screen {
     height: 100svh;
+}
+
+.w-9\/10 {
+    width: 90%;
+}
+
+.h-9\/10 {
+    height: 90%;
+}
+
+#settingsInterface {
+    background-color: white;
+    box-shadow: 0 0 400px #c2c2c2;
 }

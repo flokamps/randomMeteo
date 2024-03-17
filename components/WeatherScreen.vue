@@ -1,9 +1,15 @@
 <template>
   <div class="flex flex-col items-center">
-    <div id="settings" class="absolute top-10 left-5 settings-enter-active">
+    <div id="settings" class="absolute top-10 left-5 settings-enter-active z-10" @click="handleClick">
       <img ref="settingsImage" :src="settings" alt="Settings"/>
     </div>
-    <div class="absolute hidden top-10 left-5" id="settingsInterface"></div>
+    <div ref="settingsInterface"
+         class="rounded-3xl	absolute hidden top-10 left-5 w-9/10 h-9/10 z-10 settings-interface-active flex flex-col items-center"
+         id="settingsInterface">
+      <div id="interfaceClose" class="mt-auto mb-10 bg-red-500 text-white p-5 rounded-full" @click="handleClose">
+        <img :src="cross" alt="Close"/>
+      </div>
+    </div>
     <div id="weatherIcon" class="flex justify-end relative overflow-hidden w-full h-1/3">
       <img class="absolute cover-enter-active max-h-full" :src="props.weather.cover" alt="Weather cover" />
     </div>
@@ -44,6 +50,7 @@ const mainDiv = inject('mainDiv');
 
 const swipeElement = ref(null);
 const settingsImage = ref(null);
+const settingsInterface = ref(null);
 const handleScroll = () => {
   const windowHeight = window.visualViewport.height - 1;
 
@@ -58,13 +65,16 @@ const handleScroll = () => {
 };
 
 const handleClick = () => {
-  console.log("clicked");
+  settingsInterface.value.classList.remove('hidden');
+}
+
+const handleClose = () => {
+  settingsInterface.value.classList.add('hidden');
 }
 
 onMounted(() => {
-  if (!swipeElement.value || !mainDiv.value) return;
+  if (!mainDiv.value) return;
   mainDiv.value.addEventListener('scroll', handleScroll);
-  settingsImage.value.addEventListener('click', handleClick);
 });
 
 onUnmounted(() => {
@@ -74,4 +84,5 @@ onUnmounted(() => {
 
 import swipe from "~/assets/img/swipe.svg";
 import settings from "~/assets/img/settings.svg";
+import cross from "~/assets/img/cross.svg";
 </script>
