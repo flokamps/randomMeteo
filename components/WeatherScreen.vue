@@ -49,8 +49,6 @@ const handleScroll = () => {
 
   const scrollDistance = mainDiv.value.scrollTop;
 
-  console.log(windowHeight, scrollDistance);
-
   if (scrollDistance >= windowHeight) {
     emit('reload');
   }
