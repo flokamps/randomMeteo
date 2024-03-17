@@ -45,9 +45,11 @@ const mainDiv = inject('mainDiv');
 const swipeElement = ref(null);
 const settingsImage = ref(null);
 const handleScroll = () => {
-  const windowHeight = window.visualViewport.height;
+  const windowHeight = window.visualViewport.height - 1;
 
   const scrollDistance = mainDiv.value.scrollTop;
+
+  console.log(windowHeight, scrollDistance);
 
   if (scrollDistance >= windowHeight) {
     emit('reload');
