@@ -44,6 +44,18 @@
     }
 }
 
+@keyframes settingsIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 #temperature p {
     font-size: 9vh;
 }
@@ -100,6 +112,10 @@ body {
 
 .texts-enter-active {
     animation: textsIn 1s ease forwards;
+}
+
+.settings-enter-active {
+    animation: settingsIn 1s ease forwards;
 }
 
 .slide-leave-active {

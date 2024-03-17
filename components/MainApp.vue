@@ -2,7 +2,7 @@
   <div v-if="!loaded">
     <Loader :initial="true"/>
   </div>
-  <div v-else :style="{ backgroundImage: currentBackground, color: fontColor }" class="bg-fixed h-screen overflow-y-scroll" ref="mainDiv" id="main-div" :key="reloadData">
+  <div v-else :style="{ backgroundImage: currentBackground, color: fontColor }" class="snap-always bg-fixed h-screen overflow-y-scroll" ref="mainDiv" id="main-div" :key="reloadData">
     <WeatherScreen
         v-if="!reloadData"
         class="h-screen snap-start"

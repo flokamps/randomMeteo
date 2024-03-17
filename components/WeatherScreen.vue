@@ -1,5 +1,8 @@
 <template>
   <div class="flex flex-col items-center">
+    <div id="settings" class="absolute top-10 left-5 settings-enter-active">
+      <img ref="settingsImage" :src="settings" alt="Settings"/>
+    </div>
     <div id="weatherIcon" class="flex justify-end relative overflow-hidden w-full h-1/3">
       <img class="absolute cover-enter-active max-h-full" :src="props.weather.cover" alt="Weather cover" />
     </div>
@@ -39,8 +42,9 @@ const emit = defineEmits(['reload'])
 const mainDiv = inject('mainDiv');
 
 const swipeElement = ref(null);
+const settingsImage = ref(null);
 const handleScroll = () => {
-  const windowHeight = window.visualViewport.height - 30;
+  const windowHeight = window.visualViewport.height;
 
   const scrollDistance = mainDiv.value.scrollTop;
 
@@ -49,6 +53,7 @@ const handleScroll = () => {
   }
 
   swipeElement.value.style.transform = `translateY(${scrollDistance / 5}px)`;
+  settingsImage.value.style.transform = `translateX(-${scrollDistance / 5}px)`;
 };
 
 onMounted(() => {
@@ -62,4 +67,5 @@ onUnmounted(() => {
 });
 
 import swipe from "~/assets/img/swipe.svg";
+import settings from "~/assets/img/settings.svg";
 </script>
