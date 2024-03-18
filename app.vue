@@ -1,4 +1,5 @@
 <template v-if="mounted">
+  <SpeedInsights />
   <MainApp v-if="isMobile"/>
   <MobileWarning v-else/>
 </template>
