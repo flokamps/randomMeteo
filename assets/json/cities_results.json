@@ -1302,31 +1302,6 @@
   {
     "data": [
       {
-        "id": 40345,
-        "wikiDataId": "Q45797",
-        "type": "CITY",
-        "city": "Dunkirk",
-        "name": "Dunkirk",
-        "country": "France",
-        "countryCode": "FR",
-        "region": "Hauts-de-France",
-        "regionCode": "HDF",
-        "regionWdId": "Q18677767",
-        "latitude": 51.037777777,
-        "longitude": 2.376388888,
-        "population": 86788,
-        "distance": null,
-        "placeType": "CITY"
-      }
-    ],
-    "metadata": {
-      "currentOffset": 136,
-      "totalCount": 629
-    }
-  },
-  {
-    "data": [
-      {
         "id": 40605,
         "wikiDataId": "Q215155",
         "type": "CITY",
