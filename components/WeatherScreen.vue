@@ -4,7 +4,7 @@
       <img ref="settingsImage" :src="settings" alt="Settings"/>
     </div>
     <div ref="settingsInterface"
-         class="rounded-3xl	absolute hidden top-10 left-5 w-9/10 h-9/10 z-10 settings-interface-active flex flex-col items-center"
+         class="rounded-2xl	absolute hidden top-10 left-5 w-9/10 h-9/10 z-10 settings-interface-active flex flex-col items-center"
          id="settingsInterface">
       <div class="flex-auto flex flex-col justify-evenly">
         <div class="persona-link">

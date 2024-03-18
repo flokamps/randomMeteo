@@ -16,7 +16,7 @@
     <Loader class="snap-start"/>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 import { icons } from "assets/img";
 import { weatherIcons} from "assets/img/weather";
 import { watch } from "vue";
@@ -55,9 +55,6 @@ const weatherProperty = {
 
 async function loadData() {
   city.value = await getRandomCity(getRandomInt(100));
-  while (city.value.city.length >= 11) {
-    city.value = await getRandomCity(getRandomInt(100));
-  }
   weather.value = await getCityWeather(city.value.latitude.toString(), city.value.longitude.toString());
 
   cityName.value = city.value.city;
@@ -65,10 +62,9 @@ async function loadData() {
 
   determineWeather();
 
-  cityDescription.value = await getCityDescriptionAndLink(city.value.city);
-  wikiLink.value = await getCityDescriptionAndLink(city.value.city);
-  wikiLink.value = wikiLink.value.wikiLink;
-  cityDescription.value = cityDescription.value.desc;
+  const data = await getCityDescriptionAndLink(city.value.city);
+  wikiLink.value = data.wikiLink;
+  cityDescription.value = data.desc;
 
   await new Promise(resolve => setTimeout(resolve, 3000));
   loaded.value = true;
