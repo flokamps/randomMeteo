@@ -7,7 +7,7 @@
 import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 const mounted = ref(false);
-const isMobile = ref(false);
+const isMobile = ref(true);
 const checkIfMobile = () => {
   isMobile.value = window.innerWidth < 768;
 };
