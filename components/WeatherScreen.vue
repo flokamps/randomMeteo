@@ -6,6 +6,26 @@
     <div ref="settingsInterface"
          class="rounded-3xl	absolute hidden top-10 left-5 w-9/10 h-9/10 z-10 settings-interface-active flex flex-col items-center"
          id="settingsInterface">
+      <div class="flex-auto flex flex-col justify-evenly">
+        <p class="mx-5 text-lg">Cette application web est inspiré de la maquette Figma du Youtubeur BastiUI et réalisé par Florian Kamps. Elle a entièrement été réalisé en Vue.JS avec Nuxt.JS et TailwindCSS. Elle utilise l'API de Meteo France et Wikipedia</p>
+        <div class="persona-link">
+          <h5 class="text-3xl font-bold">Florian Kamps</h5>
+          <div class="socials py-5">
+            <a href="https://www.linkedin.com/in/florian-kamps/"><img :src="socials.linkedin" alt="Linkedin"></a>
+            <a href="https://github.com/flokamps"><img :src="socials.github" alt="Github"></a>
+            <a href="https://twitter.com/rootmeih"><img :src="socials.twitter" alt="Twitter"></a>
+          </div>
+        </div>
+        <div class="persona-link">
+          <h5 class="text-3xl font-bold">BastiUI</h5>
+          <div class="socials py-5">
+            <a href="https://www.youtube.com/@BastiUi"><img :src="socials.youtube" alt="Youtube"></a>
+            <a href="https://www.linkedin.com/in/bastienmarecaux/"><img :src="socials.linkedin" alt="Linkedin"></a>
+            <a href="https://www.figma.com/@bastiui"><img :src="socials.figma" alt="Figma"></a>
+            <a href="https://www.twitch.tv/bastiui"><img :src="socials.twitch" alt="Twitch"></a>
+          </div>
+        </div>
+      </div>
       <div id="interfaceClose" class="mt-auto mb-10 bg-red-500 text-white p-5 rounded-full" @click="handleClose">
         <img :src="cross" alt="Close"/>
       </div>
@@ -85,4 +105,5 @@ onUnmounted(() => {
 import swipe from "~/assets/img/swipe.svg";
 import settings from "~/assets/img/settings.svg";
 import cross from "~/assets/img/cross.svg";
+import { socials } from "~/assets/img/socials";
 </script>

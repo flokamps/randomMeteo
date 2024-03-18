@@ -198,3 +198,18 @@ body {
     background-color: white;
     box-shadow: 0 0 400px #c2c2c2;
 }
+
+.persona-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials img {
+    height: 1.875rem;
+    padding: 0 .625rem;
+}
