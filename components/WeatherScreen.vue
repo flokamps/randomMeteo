@@ -57,6 +57,11 @@
   </div>
 </template>
 <script setup>
+import swipe from "~/assets/img/swipe.svg";
+import settings from "~/assets/img/settings.svg";
+import cross from "~/assets/img/cross.svg";
+import { socials } from "~/assets/img/socials";
+
 const props = defineProps({
   city: String,
   temperature: Number,
@@ -101,9 +106,4 @@ onUnmounted(() => {
   if (!mainDiv.value) return;
   mainDiv.value.removeEventListener('scroll', handleScroll);
 });
-
-import swipe from "~/assets/img/swipe.svg";
-import settings from "~/assets/img/settings.svg";
-import cross from "~/assets/img/cross.svg";
-import { socials } from "~/assets/img/socials";
 </script>

@@ -3,6 +3,8 @@
   <MobileWarning v-else/>
 </template>
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+
 const mounted = ref(false);
 const isMobile = ref(false);
 const checkIfMobile = () => {
