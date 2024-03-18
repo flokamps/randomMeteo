@@ -10,3 +10,5 @@ This app is powered with Docker. You can run it with the following command:
 ```bash
 docker-compose up
 ```
+
+Local application is now available at [http://localhost:3000](http://localhost:3000)
