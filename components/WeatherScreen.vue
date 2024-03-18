@@ -7,7 +7,7 @@
          class="rounded-3xl	absolute hidden top-10 left-5 w-9/10 h-9/10 z-10 settings-interface-active flex flex-col-reverse items-center"
          id="settingsInterface">
       <div class="flex-auto flex flex-col justify-evenly">
-        <p class="mx-5 text-xs">Inspiré par BastUI, développé par Florian Kamps</p>
+        <p class="mx-5 text-xs">Dessiné par BastUI, développé par Florian Kamps</p>
         <div class="persona-link">
           <h5 class="text-3xl font-bold">BastiUI</h5>
           <div class="socials py-5">
