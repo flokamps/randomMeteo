@@ -213,3 +213,7 @@ body {
     height: 1.875rem;
     padding: 0 .625rem;
 }
+
+#settingsInterface {
+    color: rgb(31, 56, 81);
+}
