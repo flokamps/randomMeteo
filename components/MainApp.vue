@@ -66,7 +66,7 @@ async function loadData() {
   wikiLink.value = data.wikiLink;
   cityDescription.value = data.desc;
 
-  await new Promise(resolve => setTimeout(resolve, 3000));
+  await new Promise(resolve => setTimeout(resolve, 1000));
   loaded.value = true;
 }
 
